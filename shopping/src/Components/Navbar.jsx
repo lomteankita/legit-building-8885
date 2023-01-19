@@ -5,11 +5,13 @@ import {Link} from "react-router-dom";
 const Navbar = () => {
 const Links =[
     {path:"/" , title:"Home"},
-    { path:"/card", title:"Card"},
+    
     {path:"/mens" ,title:"Mens"},
     {path:"/women",title:"Womens"},
+    { path:"/jeans" ,title:"Jeans"},
+    { path:"/card", title:"Card"},
     { path:"/login",title:"Login"},
-    { path:"/jeans" ,title:"Jeans"}
+   
     
 ]
 
@@ -22,7 +24,7 @@ const Links =[
         margin:"auto",
     }}>
         {Links.map((link)=>(
-            <Link  style={{margin:"auto"}  } key={link.path} to={link.path}>
+            <Link  style={{margin:"auto",color:"darkblue",fontSize:"25px"}} key={link.path} to={link.path}>
                 {link.title}
             </Link>
         ))}
