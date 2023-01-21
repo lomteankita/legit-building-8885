@@ -11,6 +11,9 @@ function App() {
       <br />
       <br />
       <AllRoutes />
+
+
+      
       <br />
       <Footer />
     </div>
