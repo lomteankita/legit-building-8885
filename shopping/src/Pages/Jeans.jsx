@@ -25,10 +25,10 @@ const Jeans = () => {
   return (
     <div>
 
-<h1 >Restaurants List</h1>
+<h1 >Jeans List</h1>
 <div  style={{height:"500px",margin:"auto",display:"grid", gridTemplateColumns:" 1fr 1fr 1fr 1fr",
          width:"90%"}}>
-       {/* Restaurant Card */}
+      
        { adata.map((e)=>(
         <div >
           <img src={e.image} />
